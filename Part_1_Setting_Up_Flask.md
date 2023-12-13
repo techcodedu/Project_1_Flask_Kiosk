@@ -72,7 +72,3 @@ python run.py
 
 7. Open a web browser and navigate to `http://127.0.0.1:5000/`. You should see your `index.html` page rendered.
 
-Congratulations! You have successfully set up the basic Flask application. In the next steps, you will create the HTML templates, static files, and more advanced functionalities for your project.
-```
-
-Make sure to instruct the students to replace the code blocks with actual backticks when they're editing their Markdown files. This guide will help them understand each step involved in setting up a basic Flask application.
