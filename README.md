@@ -1,1 +1,88 @@
-# Project_1_Flask_Kiosk
+Certainly! Here's the corrected Markdown content for your Flask Kiosk project documentation:
+
+```markdown
+# Project 1 Flask Kiosk Setup Guide
+
+This guide will walk you through setting up the basic structure for the Project 1 Flask Kiosk application, focusing on the initial setup excluding Flask-WTF and SQLAlchemy.
+
+## Project Structure
+
+Organize your project directory as follows:
+
+```plaintext
+FarmersMarketApp/
+├── app/
+│   ├── static/
+│   │   ├── css/
+│   │   │   └── styles.css
+│   │   ├── js/
+│   │   │   └── script.js
+│   │   └── images/
+│   │       └── [product images]
+│   ├── templates/
+│   │   ├── layout.html
+│   │   ├── index.html
+│   │   ├── product.html
+│   │   └── order_confirmation.html
+│   ├── __init__.py
+│   ├── models.py
+│   ├── routes.py
+│   └── forms.py
+├── venv/
+├── requirements.txt
+└── run.py
+```
+
+## Setting Up Virtual Environment and Flask
+
+### 1. Create and Activate Virtual Environment
+
+Open your command prompt and navigate to your project directory:
+
+```bash
+cd path\to\FarmersMarketApp
+```
+
+Create a virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate the virtual environment:
+
+```bash
+venv\Scripts\activate
+```
+```bash
+source venv/bin/activate
+```
+
+### 2. Install Flask and Flask-MySQLdb
+
+Install Flask:
+
+```bash
+pip install flask
+```
+
+Install Flask-MySQLdb for database interaction:
+
+```bash
+pip install flask-mysqldb
+```
+
+### 3. Create `requirements.txt`
+
+Generate a `requirements.txt` file:
+
+```bash
+pip freeze > requirements.txt
+```
+
+## Next Steps
+
+With your environment set up, you're ready to start developing the homepage for your application using Flask. Structure your Flask application with the given directory layout for efficient project management.
+```
+
+Please note that the "```plaintext" and "```bash" markers should be replaced with actual backticks when you put this content into a `.md` file. The word "plaintext" is used here to display the directory tree correctly in this environment. When you add this to your Markdown file, the directory tree and code blocks will render correctly.
