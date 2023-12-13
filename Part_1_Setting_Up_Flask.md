@@ -1,10 +1,5 @@
 ## Setting Up Flask
 
-```markdown
-## Step 2: Set Up Flask Application
-
-Now that you have your virtual environment and project structure ready, it's time to set up the Flask application. Follow these detailed steps to get your Flask app up and running:
-
 ### Initialize the Flask App
 
 Inside the `app` directory, you will find the `__init__.py` file. This is where we will initialize our Flask application.
