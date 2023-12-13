@@ -1,7 +1,6 @@
 ```markdown
 ## Using Local Bootstrap Files in Flask
 
-In a Flask application, it's common to have static resources like CSS and JavaScript files stored in the `static` folder. If you have local copies of Bootstrap's files, you will reference them from this folder. Here's how you can set up your application to use a local Bootstrap installation.
 
 ### Organizing Bootstrap Files
 
