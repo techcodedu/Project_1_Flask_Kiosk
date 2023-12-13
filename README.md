@@ -83,6 +83,5 @@ pip freeze > requirements.txt
 ## Next Steps
 
 With your environment set up, you're ready to start developing the homepage for your application using Flask. Structure your Flask application with the given directory layout for efficient project management.
-```
 
-Please note that the "```plaintext" and "```bash" markers should be replaced with actual backticks when you put this content into a `.md` file. The word "plaintext" is used here to display the directory tree correctly in this environment. When you add this to your Markdown file, the directory tree and code blocks will render correctly.
+
