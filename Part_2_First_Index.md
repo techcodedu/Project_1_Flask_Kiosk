@@ -1,5 +1,3 @@
-Certainly! Here's the complete instruction in Markdown format, including the `index.html` which extends from `layout.html`, and assumes that Bootstrap's CSS and JS files are in the `static` folder:
-
 ```markdown
 ## Using Local Bootstrap Files in Flask
 
