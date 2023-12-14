@@ -54,9 +54,7 @@ Activate the virtual environment:
 ```bash
 venv\Scripts\activate
 ```
-```bash
-source venv/bin/activate
-```
+
 
 ### 2. Install Flask and Flask-MySQLdb
 
