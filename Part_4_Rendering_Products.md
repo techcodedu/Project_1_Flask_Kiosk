@@ -39,22 +39,27 @@ Create a `product.html` template that extends from your base layout and displays
 
 {% extends 'layout.html' %}
 
+{% block title %}Product Page{% endblock %}
+
 {% block content %}
+<!-- Your homepage content goes here -->
 <h1>Products</h1>
-<div class="row">
-    {% for product in products %}
-    <div class="col-md-3 col-sm-6 mb-4">
-        <div class="card">
-            <img src="{{ url_for('static', filename='images/' + product.PhotoURL) }}" class="card-img-top img-fluid" alt="{{ product.ProductName }}">
-            <div class="card-body">
-                <h5 class="card-title">{{ product.ProductName }}</h5>
-                <p class="card-text">{{ product.Price }}</p>
-                <!-- Additional product details here -->
+    <div class="row">
+        {% for product in products %}
+        <div class="col-4">
+            <div class="card">
+                <img src="{{ url_for('static', filename= product[4]) }}" class="card-img-top img-fluid">
+                <div class="card-body">
+                    <h5 class="card-title">{{ product[1] }}</h5>
+                    <p class="card-text">{{ product[2] }}</p>
+                    <!-- Additional product details here -->
+                </div>
             </div>
         </div>
+        {% endfor %}
     </div>
-    {% endfor %}
-</div>
+
+<!-- Here you can add more HTML elements such as cards, buttons, etc. -->
 {% endblock %}
 ```
 
