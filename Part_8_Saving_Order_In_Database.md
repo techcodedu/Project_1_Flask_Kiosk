@@ -55,7 +55,7 @@ Flash messages provide feedback to the user about the outcome of their actions. 
 
 ### Displaying Flash Messages
 
-To display these messages, update your HTML templates where you want the messages to appear:
+To display these messages, update your products.html where you want the messages to appear:
 
 ```html
 {% with messages = get_flashed_messages(with_categories=true) %}
