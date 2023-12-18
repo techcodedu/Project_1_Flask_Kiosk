@@ -1,5 +1,3 @@
-Certainly! Here's the corrected Markdown content for your Flask Kiosk project documentation:
-
 ```markdown
 # Project 1 Flask Kiosk Setup Guide
 
