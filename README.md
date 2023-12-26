@@ -23,9 +23,7 @@ FarmersMarketApp/
 │   │   ├── product.html
 │   │   └── order_confirmation.html
 │   ├── __init__.py
-│   ├── models.py
 │   ├── routes.py
-│   └── forms.py
 ├── venv/
 ├── requirements.txt
 └── run.py
